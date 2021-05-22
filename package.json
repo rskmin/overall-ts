@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rskmin/overall-ts/issues"
   },
-  "homepage": "https://github.com/rskmin/overall-ts#readme"
+  "homepage": "https://github.com/rskmin/overall-ts#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.0"
+  }
 }

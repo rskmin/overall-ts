@@ -1,4 +1,4 @@
-import { TagTypes, getTag } from "./obj-types"
+import { TagTypes, getTag } from "./objTypes"
 // TODO: 各种情况考虑完整
 const strategies: Record<string, (target1: any, target2: any) => boolean> = {
   [TagTypes.Array]: (target1: any[], target2: any[]) => {
