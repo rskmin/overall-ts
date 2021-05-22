@@ -4,7 +4,7 @@
   "description": "personal tools",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node ./scripts/run-test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/rskmin/overall-ts#readme",
   "devDependencies": {
-    "@types/node": "^15.6.0"
+    "@types/node": "^15.6.0",
+    "ts-node": "^9.1.1"
   }
 }
