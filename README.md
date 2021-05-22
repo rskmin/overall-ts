@@ -2,4 +2,4 @@
 
 ts tool magazine
 
-Personal tool library, in an extremely unstable state, <mark>should not be used for development</mark>
+Personal tool library, in an extremely unstable state, **should not be used for development**
