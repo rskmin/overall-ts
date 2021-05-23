@@ -42,6 +42,8 @@ const aop = createAopFn as IAop
 aop.before = before
 aop.after = after
 
+// TODO: 异步AOP
+
 export { aop }
 
 /**
