@@ -22,6 +22,7 @@
   "homepage": "https://github.com/rskmin/overall-ts#readme",
   "devDependencies": {
     "@types/node": "^15.6.0",
-    "ts-node": "^9.1.1"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }
