@@ -3,6 +3,11 @@ interface IGetTextWidth {
   canvas?: HTMLCanvasElement
 }
 
+/**
+ * 计算浏览器中特定样式文字的宽度
+ * @param text 文字内容
+ * @param font 文字样式
+ */
 const getTextWidth: IGetTextWidth = (text, font) => {
   const canvas =
     getTextWidth.canvas ||

@@ -11,7 +11,6 @@ const TEST_DIR = resolve(process.cwd(), "__test__")
   const passFlags: boolean[] = []
 
   async function runTestScript(filePath: string, index: number) {
-    console.log(`Began to run: ${filePath}`)
     try {
       const stdout = await cmd(`ts-node ${filePath}`)
       stdout && console.log(stdout)
@@ -20,7 +19,6 @@ const TEST_DIR = resolve(process.cwd(), "__test__")
       stderr && console.log(stderr)
       passFlags[index] = false
     }
-    console.log(`End of the run: ${filePath}\n`)
   }
 
   await Promise.all(
